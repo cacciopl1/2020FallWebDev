@@ -1,3 +1,2 @@
-var a = "New Paltz";
-var b = "Circleville";
-let c = "no connection";
+var b = 'Oneonta';
+let c = 'no connection!!!'

@@ -1,5 +1,5 @@
-# 2020FallWebDev
+# 2020Fall
 Web Programming course for the Fall of 2020
 
-# Day 3
-Setting up Github and GitKraken
+## Third Day
+We are learning about git & github
