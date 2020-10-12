@@ -7,7 +7,12 @@ Vue.use(VueRouter)
 const routes = [
   {path: '/', name: 'Home', component: Home},
   {path: '/about', name: 'About', component: () => import('../views/About.vue')},
-  {path: '/login', name: 'Login', component: () => import( '../views/Login.vue')}
+  {path: '/login', name: 'Login', component: () => import( '../views/Login.vue')},
+  {
+    path: '/feed',
+    name: 'Feed',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Feed.vue')
+  }
 ]
 
 const router = new VueRouter({
