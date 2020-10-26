@@ -55,17 +55,21 @@
 
 <script>
 import LoginBadge from "@/components/LoginBadge";
+
 export default {
   data: ()=> ({
       isActive: false
   }),
   methods: {
+
   },
   components: {
     LoginBadge
   }
+
 }
 </script>
 
 <style>
+
 </style>

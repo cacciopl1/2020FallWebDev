@@ -1,4 +1,3 @@
-  
 <template>
   <div class="page">
       <h2 class="title is-2">Feed Page</h2>
@@ -22,6 +21,7 @@ import Sidebar from "@/components/Sidebar";
 import Post from "@/components/Post";
 import { posts } from "@/models/feed";
 import session from "@/models/session";
+
 export default {
     data(){
         return {

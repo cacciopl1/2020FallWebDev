@@ -1,4 +1,3 @@
-  
 <template>
 <div id="notifications">
     <div    v-for="(x,i) in session.notifications" :key="i"
@@ -12,6 +11,7 @@
 
 <script>
 import session from "@/models/session";
+
 export default {
     data: ()=> ({
         session
